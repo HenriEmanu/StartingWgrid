@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish';
+    background: #121214;
+}
+
+header p, h2 {
+    color: #E1E1E6;
+}
+
+h1 {
+    color: #02799D;
+    font-size: 60px;
+    margin: 70px 0 0 100px;
+}
+
+header p {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 4px 0 68px 100px;
+}
+
+main {
+
+    display: grid;
+    grid: 
+    "01 02 03"
+    "04 05 06";
+    gap: 44px 60px;
+    justify-content: left;
+    align-items: 6opx;
+    
+    margin: 0 0 50px 100px;
+}
+
+div {
+    background: #202024;
+    width: 366px;
+    border: 2px solid #323238;
+    border-radius: 14px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 900;
+    padding: 24px 24px 0;
+}
+
+main p {
+    color: #C4C4CC;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 22px;
+}
+
+img {
+    border-radius: 14px 14px 0 0;
+    width: 100%;
+}
